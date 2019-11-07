@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+/*
 class InventorySetLoader {
     
     class func load(jsonFileName: String) -> InventorySet? {
@@ -28,3 +28,7 @@ class InventorySetLoader {
         return inventorySet
         }
 }
+*/
+
+
+

@@ -8,15 +8,13 @@
 
 import Foundation
 
-
+/*
 struct InventorySet: Codable {
     var status: String
-    var inventoryPath: String
     var inventory: [InventoryItem]
     
     enum CodingKeys: String, CodingKey {
         case status
-        case inventoryPath = "products"
         case inventory
     }
 }
@@ -38,3 +36,4 @@ struct InventoryItem: Codable {
     }
 }
 
+*/

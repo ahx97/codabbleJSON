@@ -15,8 +15,8 @@
 		E6E11C102370A5B800218E99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6E11C0E2370A5B800218E99 /* LaunchScreen.storyboard */; };
 		E6E11C182370A67C00218E99 /* inventory.json in Resources */ = {isa = PBXBuildFile; fileRef = E6E11C172370A67B00218E99 /* inventory.json */; };
 		E6E11C1A2370A6C800218E99 /* JSOnParseDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E11C192370A6C800218E99 /* JSOnParseDataViewController.swift */; };
-		E6E11C232370A9E400218E99 /* InventorySet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E11C222370A9E400218E99 /* InventorySet.swift */; };
-		E6E11C252370A9F700218E99 /* InventorySetLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E11C242370A9F700218E99 /* InventorySetLoader.swift */; };
+		E6E11C272374AE9E00218E99 /* InventoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E11C262374AE9E00218E99 /* InventoryItem.swift */; };
+		E6E11C292374AF6100218E99 /* InventoryItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E11C282374AF6100218E99 /* InventoryItems.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +30,8 @@
 		E6E11C112370A5B800218E99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6E11C172370A67B00218E99 /* inventory.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = inventory.json; sourceTree = "<group>"; };
 		E6E11C192370A6C800218E99 /* JSOnParseDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSOnParseDataViewController.swift; sourceTree = "<group>"; };
-		E6E11C222370A9E400218E99 /* InventorySet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventorySet.swift; sourceTree = "<group>"; };
-		E6E11C242370A9F700218E99 /* InventorySetLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventorySetLoader.swift; sourceTree = "<group>"; };
+		E6E11C262374AE9E00218E99 /* InventoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryItem.swift; sourceTree = "<group>"; };
+		E6E11C282374AF6100218E99 /* InventoryItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryItems.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +81,8 @@
 			isa = PBXGroup;
 			children = (
 				E6E11C172370A67B00218E99 /* inventory.json */,
-				E6E11C222370A9E400218E99 /* InventorySet.swift */,
-				E6E11C242370A9F700218E99 /* InventorySetLoader.swift */,
+				E6E11C262374AE9E00218E99 /* InventoryItem.swift */,
+				E6E11C282374AF6100218E99 /* InventoryItems.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -162,9 +162,9 @@
 				E6E11C0B2370A5B500218E99 /* codableJSON.xcdatamodeld in Sources */,
 				E6E11C012370A5B500218E99 /* AppDelegate.swift in Sources */,
 				E6E11C1A2370A6C800218E99 /* JSOnParseDataViewController.swift in Sources */,
-				E6E11C252370A9F700218E99 /* InventorySetLoader.swift in Sources */,
-				E6E11C232370A9E400218E99 /* InventorySet.swift in Sources */,
+				E6E11C272374AE9E00218E99 /* InventoryItem.swift in Sources */,
 				E6E11C032370A5B500218E99 /* SceneDelegate.swift in Sources */,
+				E6E11C292374AF6100218E99 /* InventoryItems.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
